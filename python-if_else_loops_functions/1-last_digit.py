@@ -2,7 +2,7 @@
 import random
 number = random.randint(-10000, 10000)
 
-last_digit = number % 10 if number >= 0 else -(abs(number) % 10) #just a reminder : The abs() function is used specifically to handle negative numbers 
+last_digit = number % 10 if number >= 0 else -(abs(number) % 10) #just a reminder by me: The abs() function is used specifically to handle negative numbers 
 in a way that ensures the correct calculation of the last digit
 
 print(f"Last digit of {number} is {last_digit}", end=" ")
