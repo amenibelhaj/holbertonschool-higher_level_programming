@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-lookup function.
+lookup list of classes and methods 
 """
 
 
