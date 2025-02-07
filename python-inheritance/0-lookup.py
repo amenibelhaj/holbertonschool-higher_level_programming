@@ -1,9 +1,17 @@
 #!/usr/bin/python3
 """
-lookup list of classes and methods 
+Module that defines the lookup function which returns the list of
+available attributes and methods of an object.
 """
 
-
 def lookup(obj):
-    """Return list of attributes and methods"""
+    """
+    Returns the list of available attributes and methods of an object.
+
+    Args:
+        obj: The object whose attributes and methods we want to inspect.
+
+    Returns:
+        A list of strings representing the attributes and methods of the object.
+    """
     return dir(obj)
